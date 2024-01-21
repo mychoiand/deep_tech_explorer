@@ -1,6 +1,6 @@
 ## Self-Rewarding Language Models (https://arxiv.org/abs/2401.10020)
 
-[We posit that to achieve superhuman agents, future models require superhuman feedback in order to provide an adequate training signal.](https://arxiv.org/abs/2401.10020) 
+We posit that to achieve superhuman agents, future models require superhuman feedback in order to provide an adequate training signal.
 
 Current approaches commonly train reward models from human preferences, which may then be bottlenecked by human performance level, and secondly these separate frozen reward models cannot then learn to improve during LLM training. 
 
