@@ -179,3 +179,9 @@ OpenAI의 Realtime API는 음성 대화 시스템의 새로운 패러다임을 �
 단일화된 처리 구조, 음성 특성 보존, 다중 모달 출력, 저지연 응답, 그리고 유연한 VAD 옵션을 통해 더욱 자연스럽고 효율적인 AI 음성 상호작용을 가능하게 합니다. 
 텍스트와 오디오 출력을 동시에 지원함으로써, 다양한 사용 사례에 유연하게 대응할 수 있으며, 개발자들에게 더 많은 가능성을 제공합니다. 
 이 API는 음성 비서, 고객 서비스 봇, 실시간 통역 서비스 등 다양한 분야에서 혁신적인 애플리케이션 개발을 촉진할 것으로 기대됩니다.
+
+## 참고
+- Realtime API Beta: https://platform.openai.com/docs/guides/realtime/concepts
+- Introducing the Realtime API: https://openai.com/index/introducing-the-realtime-api
+- OpenAI 2024 Realtime Voice API Demo: https://www.youtube.com/live/M8-bsaaLLyg
+- Playground: https://platform.openai.com/playground/realtime
