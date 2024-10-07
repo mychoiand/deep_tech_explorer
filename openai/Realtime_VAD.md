@@ -275,3 +275,5 @@ OpenAI의 Realtime API는 음성 대화 시스템의 새로운 패러다임을 �
 - Introducing the Realtime API: https://openai.com/index/introducing-the-realtime-api
 - OpenAI 2024 Realtime Voice API Demo: https://www.youtube.com/live/M8-bsaaLLyg
 - Playground: https://platform.openai.com/playground/realtime
+- https://simonwillison.net/2024/Oct/1/openai-devday-2024-live-blog/
+- https://youtu.be/8uzUJR51CBg?si=jyGByQKF9fust-cd
