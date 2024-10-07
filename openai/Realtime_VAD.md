@@ -342,6 +342,45 @@ silence duration을 두 개의 값으로 나누는 것을 제안합니다: 최�
 [3] https://platform.openai.com/docs/guides/realtime
 [4] https://en.wikipedia.org/wiki/Voice_activity_detection
 [5] https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/audio-real-time
+
+In the OpenAI Realtime API, the `response.output_item.added` event is triggered when a response has been generated and added to the conversation.
+This is closely related to how silence duration is handled:
+
+1. **Silence Accumulation**: The system uses Voice Activity Detection (VAD) to monitor audio input. When it detects silence, it accumulates this duration.
+
+2. **Threshold for Silence**: If the accumulated silence reaches or exceeds the configured threshold, the system considers the user’s speech as finished. This triggers the processing of the input.
+
+3. **Response Generation**: Once the speech is confirmed as stopped (based on silence duration), the system processes the input and generates a response.
+
+4. **Event Trigger**: The `response.output_item.added` event occurs when this response is ready and added to the conversation log.
+
+Therefore, yes, for `response.output_item.added` to occur, the silence duration must be accumulated and reach the specified threshold, indicating that the user's input is complete and ready for processing.
+There isn't a separate mechanism for detecting sentence endings based solely on text; it primarily relies on detecting sufficient silence.
+
+Citations:
+[1] https://pplx-res.cloudinary.com/image/upload/v1728325242/user_uploads/bypdnzxoz/image.jpg
+[2] https://dev.to/m_sea_bass/openai-realtime-api-python-code-understanding-the-low-level-sample-code-for-azures-realtime-audio-python-code-44k0
+[3] https://community.openai.com/t/realtime-api-server-turn-detection-limitations/966610
+[4] https://platform.openai.com/docs/guides/realtime
+
+In the OpenAI Realtime API, the response.output_item.added event is triggered when a response has been generated and added to the conversation.
+This is closely related to how silence duration is handled:
+1. Silence Accumulation: The system uses Voice Activity Detection (VAD) to monitor audio input. When it detects silence, it accumulates this duration.
+2. Threshold for Silence: If the accumulated silence reaches or exceeds the configured threshold, the system considers the user’s speech as finished. This triggers the processing of the input.
+3. Response Generation: Once the speech is confirmed as stopped (based on silence duration), the system processes the input and generates a response.
+4. Event Trigger: The response.output_item.added event occurs when this response is ready and added to the conversation log.
+Therefore, yes, for response.output_item.added to occur, the silence duration must be accumulated and reach the specified threshold, indicating that the user's input is complete and ready for processing.
+There isn't a separate mechanism for detecting sentence endings based solely on text; it primarily relies on detecting sufficient silence.
+OpenAI 실시간 API에서는 응답이 생성되어 대화에 추가되면 response.output_item.추가된 이벤트가 트리거됩니다. 이는 침묵 기간이 처리되는 방식과 밀접한 관련이 있습니다:
+1. 무음 누적: 시스템은 음성 활동 감지(VAD)를 사용하여 오디오 입력을 모니터링합니다. 침묵이 감지되면 이 시간을 누적합니다.
+2. 무음 임계값: 누적된 무음 시간이 설정된 임계값에 도달하거나 초과하면 시스템은 사용자의 음성이 끝난 것으로 간주합니다. 그러면 입력 처리가 트리거됩니다.
+3. 응답 생성: 음성이 멈춘 것으로 확인되면(침묵 시간 기준) 시스템에서 입력을 처리하고 응답을 생성합니다.
+4. 이벤트 트리거: 응답이 준비되어 대화 로그에 추가되면 response.output_item.추가된 이벤트가 발생합니다.
+따라서 response.output_item.추가된 이벤트가 발생하려면 침묵 시간이 누적되어 지정된 임계값에 도달해야 하며, 이는 사용자의 입력이 완료되어 처리할 준비가 되었음을 나타냅니다.
+텍스트만을 기반으로 문장 끝을 감지하는 별도의 메커니즘은 없으며, 주로 충분한 침묵을 감지하는 데 의존합니다.
+
+Translated with www.DeepL.com/Translator (free version)
+
 ```
 OpenAI의 Realtime API에서 **silence duration** 설정은 사용자의 발화가 끝났다고 판단하는 기준으로 사용됩니다. 다음과 같이 작동합니다:
 
