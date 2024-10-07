@@ -270,10 +270,91 @@ OpenAI의 Realtime API는 음성 대화 시스템의 새로운 패러다임을 �
 텍스트와 오디오 출력을 동시에 지원함으로써, 다양한 사용 사례에 유연하게 대응할 수 있으며, 개발자들에게 더 많은 가능성을 제공합니다. 
 이 API는 음성 비서, 고객 서비스 봇, 실시간 통역 서비스 등 다양한 분야에서 혁신적인 애플리케이션 개발을 촉진할 것으로 기대됩니다.
 
+## Test
+![image](https://github.com/user-attachments/assets/3ac8d1ab-0697-4251-bcd3-f8670e0da037)
+
+OpenAI Realtime API의 로그에서 나타나는 각 이벤트는 다음과 같은 의미를 가집니다:
+
+- **`input_audio_buffer.speech_started`**: 사용자가 말을 시작했음을 감지합니다. 음성 입력이 시작되었음을 나타냅니다.
+
+- **`input_audio_buffer.speech_stopped`**: 사용자의 말이 끝났음을 감지합니다. 음성 입력이 멈췄음을 나타내며, 이 시점에서 시스템은 입력된 오디오를 처리하기 시작할 수 있습니다.
+
+- **`input_audio_buffer.committed`**: 감지된 음성 입력이 대화 상태에 추가되었음을 의미합니다. 이는 시스템이 해당 오디오 데이터를 처리하고 응답을 생성하는 데 사용될 준비가 되었음을 나타냅니다.
+
+- **`response.output_item.added`**: 최종적으로 시스템에서 생성된 응답이 대화에 추가되었음을 의미합니다. 이 단계에서 사용자는 시스템의 응답을 받을 수 있습니다.
+
+이러한 로그는 Realtime API가 음성 입력을 어떻게 처리하고 있는지를 보여주며, 각 단계에서 어떤 작업이 이루어지는지를 설명합니다.
+```
+Citations:
+[1] https://pplx-res.cloudinary.com/image/upload/v1728325242/user_uploads/bypdnzxoz/image.jpg
+[2] https://learn.microsoft.com/ko-kr/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai
+[3] https://platform.openai.com/docs/guides/realtime
+[4] https://platform.openai.com/docs/guides/realtime/overview?text-generation-quickstart-example=audio
+```
+In OpenAI's Realtime API, the silence duration setting is used to determine when the system should consider a user's speech as completed. Here's how it works:
+
+- **Accumulation of Silence**: The API uses Voice Activity Detection (VAD) to monitor audio input for periods of silence. When the accumulated silent periods reach or exceed the configured silence duration threshold, the system considers the speech as finished and processes it accordingly[1][2].
+
+- **Minimum and Maximum Silence Duration**: The silence duration can be configured with both minimum and maximum values. The system waits for at least the minimum silence duration before considering a response. If it predicts that the user might continue speaking, it waits up to the maximum silence duration before responding[1].
+
+This approach helps manage natural pauses in conversation, allowing brief pauses without prematurely triggering a response. The system's ability to distinguish between short pauses and actual end-of-speech periods is crucial for maintaining fluid and natural interactions.
+```
+Citations:
+[1] https://community.openai.com/t/realtime-api-server-turn-detection-limitations/966610
+I am excited for the potential of voice to voice AI conversations, and so I jumped on the realtime API pretty quick.
+After testing it a fair bit I am struggling with the server turn detection and I think there may be a fundamental limitation with the approach that is unworkable.
+The issue is that the API responds to the user before they are done speaking or have finished their thought.
+There are cases where a user will say something, and then pause to think, even for a few seconds, and I want the app to respect that they are thinking and wait for them to finish before it responds.
+I don’t want to apply a universal rule to always wait the same amount of time in every situation.
+I see I have access to three settings “threshold” “prefix padding” and “silence duration”, with “silence duration” being the most relevant setting.
+I think the solution is that the API needs to be able to interpret the user’s last message and decide not to respond to it, or at least wait longer.
+I propose splitting the silence duration into two values (minimum & maximum):
+Model waits for minimum silence duration before it considering responding.
+First it considers the likelihood that the user will say more, and if it thinks the user is done then it responds.
+If it thinks the user isn’t done then it waits for a maximum silence duration before it responds.
+I would probably set the minimum silence duration to around 300ms and the maximum silence duration to around 5s as a gut shot.
+Has anyone been able to solve this with prompting? Because from my tests it seems no matter what I do the API will always respond even if I explicitly ask it not to.
+
+이 내용은 실시간 음성 대화 AI API와 관련이 있으며, 특히 silence duration(무음 지속 시간)과 관련된 문제점과 개선 제안을 다루고 있습니다. 주요 내용을 해석해드리겠습니다:
+
+문제점:
+현재 API는 사용자가 말을 완전히 끝내기 전에 응답을 시작합니다.
+사용자가 말한 후 잠시 생각하는 시간을 가질 때, API가 이를 존중하지 않고 바로 응답합니다.
+
+현재 설정:
+threshold(임계값), prefix padding(접두 패딩), silence duration(무음 지속 시간)의 세 가지 설정이 있으며, 이 중 silence duration이 가장 관련성이 높습니다.
+
+제안하는 해결책:
+silence duration을 두 개의 값으로 나누는 것을 제안합니다: 최소값과 최대값
+모델은 최소 무음 지속 시간을 기다린 후 응답을 고려합니다.
+사용자가 더 말할 가능성을 고려하여, 사용자가 말을 끝냈다고 판단되면 응답합니다.
+사용자가 아직 말을 끝내지 않았다고 판단되면 최대 무음 지속 시간까지 기다립니다.
+작성자는 최소값을 약 300ms, 최대값을 약 5초로 설정하는 것을 제안합니다.
+
+현재 한계:
+프롬프팅으로 이 문제를 해결하려 했지만, API가 항상 응답하는 것으로 보입니다.
+명시적으로 응답하지 말라고 요청해도 API는 계속 응답합니다.
+이 내용은 실시간 음성 대화 AI 시스템에서 자연스러운 대화 흐름을 만들기 위한 중요한 문제를 다루고 있습니다.
+사용자의 발화 패턴과 생각하는 시간을 존중하면서도 적절한 타이밍에 응답하는 것이 challenge으로 제시되고 있습니다.
+
+
+[2] https://dev.to/m_sea_bass/openai-realtime-api-python-code-understanding-the-low-level-sample-code-for-azures-realtime-audio-python-code-44k0
+[3] https://platform.openai.com/docs/guides/realtime
+[4] https://en.wikipedia.org/wiki/Voice_activity_detection
+[5] https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/audio-real-time
+```
+OpenAI의 Realtime API에서 **silence duration** 설정은 사용자의 발화가 끝났다고 판단하는 기준으로 사용됩니다. 다음과 같이 작동합니다:
+
+- **침묵 누적**: API는 음성 활동 감지(VAD)를 사용하여 오디오 입력에서 침묵 구간을 모니터링합니다. 설정된 침묵 지속 시간 임계값에 도달하거나 이를 초과하면, 시스템은 발화가 끝났다고 간주하고 이를 처리합니다.
+
+- **최소 및 최대 침묵 지속 시간**: 침묵 지속 시간은 최소 및 최대 값으로 구성할 수 있습니다. 시스템은 최소 침묵 지속 시간을 기다린 후 응답을 고려합니다. 사용자가 계속 말할 가능성이 있다고 예측되면, 최대 침묵 지속 시간까지 기다립니다.
+
+이 접근 방식은 대화 중 자연스러운 일시 정지를 관리하는 데 도움을 주며, 짧은 일시 정지 동안에는 응답이 조기에 발생하지 않도록 합니다. 시스템이 짧은 일시 정지와 실제 발화 종료를 구별할 수 있는 능력은 자연스럽고 유연한 상호작용을 유지하는 데 중요합니다.
+
 ## 참고
 - Realtime API Beta: https://platform.openai.com/docs/guides/realtime/concepts
 - Introducing the Realtime API: https://openai.com/index/introducing-the-realtime-api
 - OpenAI 2024 Realtime Voice API Demo: https://www.youtube.com/live/M8-bsaaLLyg
 - Playground: https://platform.openai.com/playground/realtime
 - https://simonwillison.net/2024/Oct/1/openai-devday-2024-live-blog/
-- https://youtu.be/8uzUJR51CBg?si=jyGByQKF9fust-cd
+- 실시간 데모: https://youtu.be/8uzUJR51CBg?si=jyGByQKF9fust-cd
