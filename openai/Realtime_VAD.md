@@ -390,6 +390,19 @@ OpenAI의 Realtime API에서 **silence duration** 설정은 사용자의 발화�
 
 이 접근 방식은 대화 중 자연스러운 일시 정지를 관리하는 데 도움을 주며, 짧은 일시 정지 동안에는 응답이 조기에 발생하지 않도록 합니다. 시스템이 짧은 일시 정지와 실제 발화 종료를 구별할 수 있는 능력은 자연스럽고 유연한 상호작용을 유지하는 데 중요합니다.
 
+```
+How it works
+Previously, to create a similar voice assistant experience, developers had to transcribe audio with an automatic speech recognition model like Whisper, pass the text to a text model for inference or reasoning, and then play the model’s output using a text-to-speech(opens in a new window) model. This approach often resulted in loss of emotion, emphasis and accents, plus noticeable latency. With the Chat Completions API, developers can handle the entire process with a single API call, though it remains slower than human conversation. The Realtime API improves this by streaming audio inputs and outputs directly, enabling more natural conversational experiences. It can also handle interruptions automatically, much like Advanced Voice Mode in ChatGPT.
+
+Under the hood, the Realtime API lets you create a persistent WebSocket connection to exchange messages with GPT-4o. The API supports function calling(opens in a new window), which makes it possible for voice assistants to respond to user requests by triggering actions or pulling in new context. For example, a voice assistant could place an order on behalf of the user or retrieve relevant customer information to personalize its responses.
+작동 방식
+이전에는 개발자가 유사한 음성 비서 환경을 만들려면 Whisper와 같은 자동 음성 인식 모델을 사용하여 오디오를 텍스트로 변환하고, 추론이나 추론을 위해 텍스트 모델에 텍스트를 전달한 다음, 텍스트 음성 변환(새 창에서 열기) 모델을 사용하여 모델의 출력을 재생해야 했습니다. 이 방식은 종종 감정, 강조 및 악센트가 손실되고 대기 시간이 눈에 띄게 길어지는 결과를 초래했습니다. 채팅 완료 API를 사용하면 개발자는 단 한 번의 API 호출로 전체 프로세스를 처리할 수 있지만, 사람과의 대화보다는 느립니다. 실시간 API는 오디오 입력과 출력을 직접 스트리밍하여 이 문제를 개선하여 보다 자연스러운 대화 환경을 구현할 수 있습니다. 또한 ChatGPT의 고급 음성 모드처럼 자동으로 중단을 처리할 수도 있습니다.
+
+내부적으로는 실시간 API를 통해 영구적인 웹소켓 연결을 생성하여 GPT-4o와 메시지를 교환할 수 있습니다. 이 API는 함수 호출(새 창에서 열기)을 지원하므로 음성 어시스턴트가 작업을 트리거하거나 새로운 컨텍스트를 가져와서 사용자 요청에 응답할 수 있습니다. 예를 들어 음성 어시스턴트가 사용자를 대신하여 주문을 하거나 관련 고객 정보를 검색하여 응답을 개인화할 수 있습니다.
+
+Translated with www.DeepL.com/Translator (free version)
+
+```
 ## 참고
 - Realtime API Beta: https://platform.openai.com/docs/guides/realtime/concepts
 - Introducing the Realtime API: https://openai.com/index/introducing-the-realtime-api
