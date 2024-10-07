@@ -358,3 +358,4 @@ OpenAI의 Realtime API에서 **silence duration** 설정은 사용자의 발화�
 - Playground: https://platform.openai.com/playground/realtime
 - https://simonwillison.net/2024/Oct/1/openai-devday-2024-live-blog/
 - 실시간 데모: https://youtu.be/8uzUJR51CBg?si=jyGByQKF9fust-cd
+- https://github.com/azure-samples/aoai-realtime-audio-sdk
