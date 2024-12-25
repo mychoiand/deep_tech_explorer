@@ -4,8 +4,18 @@
 MS
 
 네이버
+- https://clova-x.naver.com/agent/I2EWYh1Os9y70BaRD0-F6.search_assistant
+![image](https://github.com/user-attachments/assets/978ed18c-246d-4d4c-a98c-1f347abf202c)
+- 검색 예
+![image](https://github.com/user-attachments/assets/b32a9f3c-0c96-4cd4-b95a-2283aec199f2)
 
-https://clova-x.naver.com/agent/I2EWYh1Os9y70BaRD0-F6.search_assistant
+- https://cue.search.naver.com/#
+![image](https://github.com/user-attachments/assets/c3213ee1-b2f5-4792-831e-a932f290de97)
+
+![image](https://github.com/user-attachments/assets/47d2122b-709f-4922-b848-a49c83a8d60d)
+
+
+
 
 - 검색 시장 점유률
 https://gs.statcounter.com/search-engine-market-share
@@ -33,3 +43,7 @@ Top Generative AI Chatbots by Market Share – December 2024
 December 3, 2024
 - https://firstpagesage.com/reports/top-generative-ai-chatbots/
 ![image](https://github.com/user-attachments/assets/80fbcf16-b30d-450e-8c54-c63472d36a6d)
+
+
+Will AI grow bigger than Google search? 2020-2028 statistics and my predictions
+- https://morningscore.io/will-ai-grow-bigger-than-google-search-2020-2028-statistics-and-my-predictions/
