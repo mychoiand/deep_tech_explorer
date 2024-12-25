@@ -15,6 +15,20 @@ MS
 ![image](https://github.com/user-attachments/assets/47d2122b-709f-4922-b848-a49c83a8d60d)
 
 
+라이너 AI
+- https://getliner.com/ko
+![image](https://github.com/user-attachments/assets/2f434f28-4da2-4336-813b-df743949494a)
+
+![image](https://github.com/user-attachments/assets/b2d49739-fe0f-4548-b9a8-122cbf46c9b6)
+
+![image](https://github.com/user-attachments/assets/c0f0058f-f94a-4501-b502-1e38ba343f7c)
+
+![image](https://github.com/user-attachments/assets/8e8b3916-6936-49cb-9fdc-572811520ef3)
+
+![image](https://github.com/user-attachments/assets/b5d3c646-7330-49b2-a23a-544aa7c8bf79)
+
+![image](https://github.com/user-attachments/assets/9ee91adb-e183-41fe-b86c-52d0e4b2bc3c)
+
 
 
 - 검색 시장 점유률
