@@ -28,3 +28,8 @@ September 10, 2024/0 Comments/in SEO /by Matthew Capala
 - https://alphametic.com/global-search-engine-market-share
 ![image](https://github.com/user-attachments/assets/65e6d974-e087-4ccc-a7f8-5b4b9dd411b6)
 
+
+Top Generative AI Chatbots by Market Share – December 2024
+December 3, 2024
+- https://firstpagesage.com/reports/top-generative-ai-chatbots/
+![image](https://github.com/user-attachments/assets/80fbcf16-b30d-450e-8c54-c63472d36a6d)
