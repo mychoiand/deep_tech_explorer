@@ -19,6 +19,9 @@ MS
 - https://getliner.com/ko
 ![image](https://github.com/user-attachments/assets/2f434f28-4da2-4336-813b-df743949494a)
 
+![image](https://github.com/user-attachments/assets/1e3c2e29-be04-4057-b6c2-8190adbf0925)
+
+
 ![image](https://github.com/user-attachments/assets/b2d49739-fe0f-4548-b9a8-122cbf46c9b6)
 
 ![image](https://github.com/user-attachments/assets/c0f0058f-f94a-4501-b502-1e38ba343f7c)
@@ -29,6 +32,9 @@ MS
 
 ![image](https://github.com/user-attachments/assets/9ee91adb-e183-41fe-b86c-52d0e4b2bc3c)
 
+![image](https://github.com/user-attachments/assets/a04ca5fb-0c96-4e74-b340-8c6d35ab0d01)
+
+![image](https://github.com/user-attachments/assets/0b80f8c1-75c0-434a-a91a-fbc28d2a5d20)
 
 
 - 검색 시장 점유률
