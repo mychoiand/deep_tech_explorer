@@ -12,3 +12,74 @@ https://clova-x.naver.com/agent/I2EWYh1Os9y70BaRD0-F6.search_assistant
 - https://gs.statcounter.com/search-engine-market-share
 
 
+AI 검색
+AI 검색 기능은 최근 몇 년 동안 급격히 발전하였으며, 여러 플랫폼에서 다양한 기능을 제공하고 있습니다. 여기서는 라이너(Liner), 젠스파크(Genspark), 퍼플렉시티(Perplexity), ChatGPT Search의 AI 검색 기능을 비교하여 설명하겠습니다.
+
+    라이너(AI 검색 기능)
+라이너는 신뢰할 수 있는 정보 제공을 위해 출처를 포함한 검색 결과를 제시합니다. 사용자가 입력한 검색어에 대해 AI가 빠르고 정확한 답변을 제공하며, 사용자가 직접 출처를 관리할 수 있는 기능을 제공합니다,. 라이너는 또한 사용자의 하이라이팅 데이터를 기반으로 개인화된 검색 결과를 제공하여, 고품질의 정보만을 필터링할 수 있는 장점이 있습니다,. 연구 및 학술 논문 검색 도구를 통합하여 전문적인 정보 요구를 충족하는 데 강점을 보입니다.
+
+    젠스파크(AI 검색 기능)
+젠스파크는 사용자의 질문에 대한 맞춤형 요약을 생성하는 AI 기반 검색 엔진입니다. 이 플랫폼은 여러 출처의 정보를 통합하여 단일 페이지로 제공하며, 이는 정보의 속도를 극대화합니다,. 젠스파크는 사용자의 의도에 따라 내장 AI 코파일럿을 제공하여 후속 질문에 대한 추가 정보를 쉽게 얻을 수 있도록 돕습니다. 그러나 새로운 플랫폼인 만큼 기존 검색 엔진에 비해 데이터의 폭이나 활용 가능성 면에서 아쉬움이 있을 수 있습니다.
+
+    퍼플렉시티(AI 검색 기능)
+퍼플렉시티는 사용자의 질문을 실시간으로 웹에서 검색하여 관련 정보를 제공하는 데 매우 능숙합니다. 이 플랫폼은 학술 자료 및 신뢰할 수 있는 출처의 정보를 폭넓게 분석하여 종합적인 답변을 생성합니다,. 또한, 사용자는 검색 결과에 포함되는 출처를 명확히 확인할 수 있으며, 선택한 출처에 따라 검색 결과를 필터링할 수 있는 기능을 제공합니다. 이러한 특징으로 인해 퍼플렉시티는 사실 확인이나 연구를 위한 도구로 특히 유용합니다.
+
+    ChatGPT Search(AI 검색 기능)
+ChatGPT Search는 기존 ChatGPT의 기능에 실시간 웹 검색이 추가된 형태로, 사용자가 자연어로 질문하면 AI가 웹을 탐색하여 관련 정보를 제공합니다. 이 서비스는 질문에 대한 답변 아래에 출처를 명시하여 사용자가 정보의 신뢰성을 판단할 수 있도록 돕습니다. ChatGPT Search는 대화형 인터페이스를 통해 사용자와 상호작용하며, 이러한 특성 덕분에 정보 탐색의 효율성을 향상시킵니다. 그러나 사실 확인에 대한 신뢰도가 낮을 경우도 있으며, 이런 점에서 사용자 주의가 필요합니다.
+
+    결론
+각 플랫폼은 고유한 장점을 가지고 있으며, 다음과 같은 요약을 통해 비교할 수 있습니다:
+
+    라이너**: 출처 기반의 신뢰도 높은 검색 제공, 하이라이팅 데이터 활용.
+젠스파크**: 여러 출처 정보를 통합하여 빠르게 제공, 개인화된 질문응답 기능.
+퍼플렉시티**: 실시간 웹 검색 및 신뢰할 수 있는 출처 중심의 종합 정보 제공.
+ChatGPT Search**: 대화형 인터페이스와 실시간 검색 기능 결합, 소스 확인 기능 제공.
+
+    이러한 AI 검색 기능은 사용자의 필요에 따라 선택할 수 있으며, 전문적인 연구에서부터 일상적인 질문까지 다양한 요구를 충족할 수 있습니다.
+
+출처: 
+[1] AI검색엔진, 라이너(Liner), https://aimatters.co.kr/ai-tool/ai-tool-db/2870
+[2] 라이너(Liner): 8년간의 노하우로 탄생한 혁신적인 AI 검색 서비스, https://blog.naver.com/seokssong/223549696618
+[3] Liner (라이너): 믿을 수 있는 AI 검색 - Google Play 앱, https://play.google.com/store/apps/details?id=com.getliner.liner&hl=ko
+[4] 출처 포함 신뢰도 높은 결과 제시로 차별화…AI 검색 서비스 '라이너', https://www.donga.com/news/It/article/all/20241101/130342436/1
+[5] 라이너, '생성 AI 검색' 국내서 가장 먼저 출시, https://www.aitimes.com/news/articleView.html?idxno=151561
+[6] AI 검색 '라이너'…왜 대학생 필수 앱인지 알겠다 [토요리뷰] - 뉴스1, https://www.news1.kr/it-science/general-it/5587356
+[7] 라이너 AI 무료 vs PRO 사용 후기 : 네이버 블로그, https://blog.naver.com/thummmb_95/223686729527?fromRss=true&trackingCode=rss
+[8] - 라이너를 멋지게 소개해주시는 분들 - Threads, https://www.threads.net/@alexandersyoon/post/DDlqpiVzmiF
+[9] “밑줄 긋고 요약 하고 비서 만들고“…라이너 AI 어디까지 되나, https://www.epnc.co.kr/news/articleView.html?idxno=240674
+[10] 출처 포함 신뢰도 높은 결과 제시로 차별화…AI 검색 서비스 '라이너', https://it.donga.com/106088/
+[11] 윤석진 라이너 미국총괄 “AI 검색 승자는 출처 선별 능력에서 가려질 것”, https://www.aitimes.com/news/articleView.html?idxno=162407
+[12] 라이너(Liner) 채용, https://liner.career.greetinghr.com/news
+[13] 라이너 "업무 시 도움되는 AI 서비스 집중…5년 내 7억 이용자 목표", https://zdnet.co.kr/view/?no=20231129155707
+[14] 라이너, '생성형 AI 소비자 앱 톱 100' 2회 연속 최상위 진입, http://www.itdaily.kr/news/articleView.html?idxno=226314
+[15] 생성형AI 적용 검색엔진 '젠스파크', 구글에 도전장 - 지디넷코리아, https://zdnet.co.kr/view/?no=20240619091235
+[16] [에듀테크] 마인드맵, PPT 만들어주는 인공지능 검색엔진 보실래요?, https://blog.naver.com/kachu_t/223638644642
+[17] 젠스파크의 장단점과 활용 방법 - Genspark, https://www.genspark.ai/spark/%EC%A0%A0%EC%8A%A4%ED%8C%8C%ED%81%AC%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EA%B3%BC-%ED%99%9C%EC%9A%A9-%EB%B0%A9%EB%B2%95/a5a0db10-6bb2-42ac-ba50-8222ba7335b0
+[18] Genspark 기능, 장단점 및 사용 사례 - aipure ai, https://aipure.ai/kr/products/genspark/features
+[19] 퍼플렉시티 (Perplexity) 사용법 - 새로운 AI 지식 검색 도구, 나만의 ..., https://www.magicaiprompts.com/docs/perplexity/how-to-use-perplexity-ai
+[20] 퍼플렉시티 AI: 무엇이며 어떻게 사용하는가 - Guru, https://www.getguru.com/ko/reference/what-is-perplexity-ai-and-how-to-use-it
+[21] 퍼플렉시티: AI 검색 혁명 - 브런치, https://brunch.co.kr/@@h1Ca/5
+[22] Perplexity란 무엇인가요?, https://www.perplexity.ai/ko/hub/faq/what-is-perplexity
+[23] 퍼플렉시티의 새로운 AI 검색 혁명,내부 문서까지 검색하는 차세대 ..., https://blog.naver.com/lbucess/223632730882
+[24] 퍼플렉시티(Perplexity) AI의 장점과 사용법 - 네이버 블로그, https://m.blog.naver.com/forecastinglab/223507180849
+[25] 퍼플렉시티 리뷰, 믿을 수 있는 출처의 생성형 AI - 브런치스토리, https://brunch.co.kr/@ericpm/13
+[26] Perplexity AI, ChatGPT 장단점 : 네이버 블로그, https://blog.naver.com/hyouncho/223691100078
+[27] Perplexity AI 리뷰 - TextCortex, https://textcortex.com/ko/post/perplexity-ai-review
+[28] 퍼플렉시티(Perplexity): 사용방법과 활용사례 - 브런치스토리, https://brunch.co.kr/@acc9b16b9f0f430/103
+[29] 02화 2. Perplexity만이 제공하는 사용자 경험 - 브런치, https://brunch.co.kr/@@2rV/163
+[30] AI검색 서치GPT·퍼플렉시티, '구글 아성' 흔든다 - 한겨레, https://www.hani.co.kr/arti/economy/it/1173258.html
+[31] AI 검색의 혁명: 퍼플렉시티 vs 구글, 무엇이 다른가? - 네이버블로그, https://blog.naver.com/kkmm0617/223633827003?fromRss=true&trackingCode=rss
+[32] ChatGPT Search, AI 검색 기능 활용법 - 브런치, https://brunch.co.kr/@skychang44/650
+[33] Introducing ChatGPT search - OpenAI, https://openai.com/index/introducing-chatgpt-search/
+[34] ChatGPT Search: 이제 실시간 웹 검색도 된다. - 디자인 나침반, https://designcompass.org/2024/11/01/chatgpt-search/
+[35] ChatGPT 검색기능 출시 - 브런치스토리, https://brunch.co.kr/@h-i/3
+[36] 챗GPT 서치 : 검색에 인공지능(AI)을 더한다면? : 네이버 블로그, https://blog.naver.com/ryurime88/223643286008?viewType=pc
+[37] Bing 검색: ChatGPT를 가볍게 뛰어넘다? (feat. 구글 큰일났다?), https://m.blog.naver.com/lhd1371/223035143291
+[38] [ChatGPT 에 생긴 '검색' 기능 리뷰] - GPT의 가장 큰 단점은 '학습된 ..., https://www.threads.net/@slamslam__/post/DB0a4qOxfIe
+[39] ChatGPT와 검색의 미래, https://medium.com/naver-dna-tech-blog/chatgpt%EC%99%80-%EA%B2%80%EC%83%89%EC%9D%98-%EB%AF%B8%EB%9E%98-60dd438cee64
+[40] ChatGPT의 업무적 활용 가능성은? 장점과 주의점을 설명하다, https://monolith.law/ko/it/chatgpt-business-use
+[41] ChatGPT Search로 검색 경험을 혁신하는 방법 - 테크냥의 개발이야기, https://technyang.tistory.com/entry/ChatGPT-Search%EB%A1%9C-%EA%B2%80%EC%83%89-%EA%B2%BD%ED%97%98%EC%9D%84-%ED%98%81%EC%8B%A0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95?category=1201090
+[42] 검색 트렌드 바꾼 ChatGPT, 만족도·신뢰도 등 사용자 평가 총정리, https://blog.opensurvey.co.kr/article/search-2024-2/
+[43] [Day 8] Introducing ChatGPT Search - velog, https://velog.io/@euisuk-chung/Day-8-Introducing-ChatGPT-Search
+[44] 273. ChatGPT Search: 구글과 경쟁하는 대화형 검색의 등장과 미래, https://guguuu.com/entry/273-chatgpt-search-ai
+
