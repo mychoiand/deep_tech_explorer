@@ -1,0 +1,204 @@
+AI 기반 Deep Research(딥 리서치) 서비스 비교 분석
+
+    인공지능이 방대한 정보를 검색하고 분석하여 종합적인 보고서를 제공하는 Deep Research 기능이 AI 업계의 새로운 트렌드로 자리잡고 있습니다. 이 보고서에서는 OpenAI, Gemini, Genspark, Grok, Perplexity에서 제공하는 Deep Research 서비스의 기본 개요와 각 서비스별 특징 및 장단점을 비교 분석하겠습니다.
+
+    Deep Research 기능의 기본 개요
+
+    Deep Research는 AI가 수행할 수 있는 연구의 수준을 한층 끌어올린 기술로, 단순한 정보 검색을 넘어 다단계 웹 탐색, 신뢰성 높은 데이터 분석, 전문가 수준의 보고서 작성을 자동화하는 기능입니다. 이 기술은 인간이 수시간에 걸쳐 수행해야 할 연구를 몇 분 내에 완료하여 전문 분석가 수준의 보고서를 생성합니다.
+
+    OpenAI Deep Research 개요 및 장단점
+
+    개요
+OpenAI의 Deep Research는 차세대 o3 추론 모델을 기반으로 개발된 AI 시스템으로, 복잡한 브라우징과 추론 작업을 수행할 수 있습니다. 5분에서 30분 동안 심층적인 웹 검색을 수행하며, 결과를 종합적으로 분석해 보고서를 작성합니다.
+
+    장점
+- 높은 정확성: Humanity's Last Exam에서 26.6%의 정확도를 기록하며 경쟁 모델 중 가장 높은 성능 달성
+- 출처 명확화: 모든 정보의 출처를 명확히 제시하고, 문장 단위까지 정확한 인용 제공
+- 고급 추론 능력: o3 모델 기반으로 다단계 논리적 추론 및 계획 수행 가능
+- 다양한 도구 활용: 파이썬 실행, 파일 업로드, 이미지 및 그래프 생성 기능 통합
+- 다중 소스 정보 통합: 여러 웹사이트 데이터를 크롤링하여 신뢰도 높은 정보 선별 및 비교 분석
+
+    단점
+- 높은 가격: 월 $200(약 30만원)의 비용으로 중소기업이나 개인 사용자에게 부담
+- 긴 처리 시간: 5~30분까지 소요되어 다른 서비스보다 상대적으로 느림
+- 월 100회로 사용 횟수 제한
+- 환각 현상: 부정확한 정보 제공 가능성이 있음
+- 정보 출처의 신뢰도 평가 어려움
+
+    Gemini Deep Research 개요 및 장점
+
+    개요
+Google의 Gemini Deep Research는 웹 브라우징과 데이터 분석에 최적화된 고급 연구 도구로, 여러 소스를 분석하여 전문 연구 분석가 수준의 종합적인 보고서를 작성합니다.
+
+    장점
+- Google 생태계와 통합: Google Docs 연동 및 원본 출처 링크 제공
+- 빠른 처리 속도: 일반적으로 15분 이내 처리 완료
+- 합리적인 가격: 월 $20의 Gemini Advanced 구독으로 이용 가능
+- 체계적인 계획 공유: 작업 계획을 사전에 공유하고 승인을 요청하는 방식
+- 강력한 논리적 추론 능력: 복잡한 다단계 문제 해결에 탁월
+
+    단점
+- 깊이 부족: 기대했던 수준의 심층 분석이 다소 부족하다는 평가
+- 브레인스토밍 수준: 실제 적용을 위해 추가적인 심화 분석 필요
+- 성능 한계: Humanity's Last Exam에서 6.2%의 정확도로 상대적으로 낮은 성능
+- 경직된 접근 방식: 정보의 폭은 넓지만 깊이가 부족하다는 평가
+- 일관되지 않은 결과: 작업 수행 중 예상치 못한 문제 발생 가능성
+
+    Genspark Deep Research 개요 및 장단점
+
+    개요
+무료 AI Agent 서비스로 알려진 Genspark의 Deep Research 기능은 기본적인 리서치 기능을 무료로 제공하여 접근성이 높은 서비스입니다.
+
+    장점
+- 접근성: 일부 기능을 무료 서비스로 제공
+- 시각화 기능: 마인드맵 형식의 시각적 목차 제공으로 구조화된 콘텐츠 제작
+- 전체 내용의 구조를 한눈에 파악 가능
+- 주제 간 연결성을 효과적으로 표현
+- 다양한 AI 모델 활용: 교차 확인 기능 제공, 사용자 친화적 인터페이스
+
+    단점
+- 사용 제한: Deep Research 기능은 일 1회로 사용 횟수 제한
+- 긴 처리 시간: 15-20분의 긴 처리 시간 소요
+- 일반적 조언 위주: 구체적 해결책보다 일반적인 조언 중심
+- 의사결정 의존: 핵심적인 의사결정과 판단을 사용자에게 미루는 경향
+- 정보의 폭 한계: 정보의 폭이 넓지 않을 수 있다는 제약
+
+    Grok Deep Research 개요 및 장단점
+
+    개요
+xAI의 Grok-3에 탑재된 DeepSearch 기능은 웹 검색과 구조화된 추론을 결합하여 정보를 제공하는 서비스로, OpenAI의 Deep Research 및 Perplexity와 유사한 기능을 제공합니다.
+
+    장점
+- 강력한 추론 능력: 복잡한 수학적 계산과 과학적 추론 분야에서 탁월한 성능
+- 실시간 데이터 처리: 현재 사건에 대한 상세한 인용 기반 응답 제공
+- 웹 연구와 구조화된 추론 결합: 정보 검색과 분석을 효율적으로 수행
+- 풀리지 않은 문제 해결 의지: 다른 모델이 포기하는 복잡한 문제에도 도전
+- 가격 경쟁력: X Premium+ 구독자에게 월 $30로 제공되어 상대적으로 저렴
+
+    단점
+- 신뢰성 문제: 환각된 URL 및 자기 참조 삭제 현상 발생
+- 대중문화 관련 콘텐츠 한계: 엔터테인먼트 관련 질문에서 잘못된 정보 제공 가능성
+- 출처 인용 미흡: 정확한 정보를 제공하지만 출처가 항상 인용되지 않음
+- 윤리적 질문에 대한 장황한 대응: 윤리적 민감성 부족
+- 제한된 접근성: X Premium+ 구독자에게만 독점적으로 제공
+
+    Perplexity Deep Research 개요 및 장단점
+
+    개요
+Perplexity의 Deep Research는 고급 웹 검색, 추론, 코딩을 결합하여 반복적으로 검색하고 분석을 정제하여 명확하고 포괄적인 보고서를 생성하는 서비스입니다.
+
+    장점
+- 빠른 처리 속도: 대부분의 작업을 3분 이내에 완료하는 뛰어난 속도
+- 접근성: 무료 사용자에게도 하루 5회 무료 쿼리 제공
+- 합리적인 가격: 월 $20 Pro 구독자에게 하루 500회 쿼리 제공
+- 높은 정확도: SimpleQA 벤치마크에서 93.9%의 정확도 달성
+- 광범위한 출처: 주제에 따라 100개 이상의 출처 참조 가능
+
+    단점
+- 제한된 연구 에이전트 범위: 지식 발견에 초점을 맞춰 연구 에이전트 기능 제한적
+- 복잡한 맥락 이해 부족: 매우 전문적이거나 미묘한 맥락이 요구되는 분야에서 한계
+- 틈새 시장 집중: 다른 연구 에이전트에 비해 다재다능함 부족
+- 계산 능력과 생태계 한계: Google이나 OpenAI의 고급 추론 기능과 같은 계산 능력 부족
+- 정보의 정확성: 다양한 출처를 참조하지만 때때로 정확성이 떨어질 수 있음
+
+    종합 비교 분석
+
+    가격 비교
+- OpenAI Deep Research: 월 $200, 월 100회 제한
+- Gemini Deep Research: 월 $20 (Gemini Advanced)
+- Genspark Deep Research: 무료 서비스 제공 (일 1회 제한)
+- Grok DeepSearch: 월 $30 (슈퍼그록 요금제)
+- Perplexity Deep Research: 무료(하루 5회 제한), 월 $20 Pro 구독(하루 500회)
+
+    성능 비교 (Humanity's Last Exam 기준)
+- OpenAI Deep Research: 26.6%
+- Gemini Deep Research: 6.2%
+- Perplexity Deep Research: 21.1%
+
+출처: 
+[1] OpenAI, Deep Research 기능 공개, https://velog.io/@euisuk-chung/OpenAI-Deep-Research-%EA%B8%B0%EB%8A%A5-%EA%B3%B5%EA%B0%9C
+[2] OpenAI Deep Research 살펴보기 - 브런치스토리, https://brunch.co.kr/@aimuse/42
+[3] 딥리서치 (Deep Research) 란? 기존 AI 대비 26.6% 향상된 정확도 ..., https://www.magicaiprompts.com/docs/chatgpt/deep-research/
+[4] OpenAI, 웹 검색 및 여러 단계의 연구 수행 후 보고서를 생성하는 Deep ..., https://discuss.pytorch.kr/t/openai-deep-research/6034
+[5] OpenAI, 'Deep Research' 에이전트 출시 – 30분 동안 나를 대신해 웹 ..., https://news.aikoreacommunity.com/openai-deep-research-agent-automated-web-research/
+[6] OpenAI의 Deep Research: 차세대 AI 연구 도구의 혁신, https://engineer-daddy.co.kr/entry/OpenAI-Deep-Research
+[7] LinkedIn Daewoong K. 페이지: OpenAI Deep Research의 문제점, https://kr.linkedin.com/posts/daewoong-k-94621416a_openai-deep-research%EC%9D%98-%EB%AC%B8%EC%A0%9C%EC%A0%90-geeknews-activity-7298708723047284736-daqY
+[8] 한눈에 보는 3대 AI Deep Research 서비스 실전 비교 | ChatGPT ..., https://www.aiground.co.kr/comparison-ai-deep-research-services-chatgpt-gemini-genspark/
+[9] 두 개의 딥 리서치(Deep Research): 퍼플렉시티(Perplexity)와 오픈AI ..., https://dimalife.tistory.com/entry/%EB%91%90-%EA%B0%9C%EC%9D%98-%EB%94%A5-%EB%A6%AC%EC%84%9C%EC%B9%98-Deep-Research-%ED%8D%BC%ED%94%8C%EB%A0%89%EC%8B%9C%ED%8B%B0-Perplexity%EC%99%80-%EC%98%A4%ED%94%88AI-OpenAI
+[10] OpenAI Deep Research의 문제점 | GeekNews - Facebook, https://m.facebook.com/story.php?story_fbid=1425522002097005&id=100039176564445
+[11] 제미나이의 새로운 AI 리서치 어시스턴트, '딥 리서치(Deep Research), https://blog.google/intl/ko-kr/company-news/technology/ai-deep-research-kr/
+[12] Gemini Advanced 1.5 Pro with Deep Research - 위키독스, https://wikidocs.net/271785
+[13] 'Deep Research'로 인공지능이 당신의 리서치 전문가가 된다, https://digitalbourgeois.tistory.com/614
+[14] Deep Research를 사용하여 연구 분석을 수행하는 방법 - AI넷, http://www.ainet.link/18761
+[15] I just tested AI deep research on Grok-3 vs Perplexity vs Gemini, https://www.tomsguide.com/ai/i-just-tested-ai-deep-research-on-grok-3-vs-perplexity-vs-gemini-heres-the-winner
+[16] Deep Research Capabilities: Comparing ChatGPT, Perplexity, Grok ..., https://bytebridge.medium.com/deep-research-capabilities-comparing-chatgpt-perplexity-grok-and-kompas-ai-012d643fef5a
+[17] Gemini vs ChatGPT Deep Research destroyed my expectations, https://www.ai-supremacy.com/p/gemini-vs-chatgpt-deep-research-destroyed
+[18] 연구활용 AI 도구 사용방법 - Pega Devlog, https://jehyunlee.github.io/2025/01/20/General-76_researchgenai/
+[19] [딥 리서치 (Deep Research) AI 도구 비교 분석 및 활용 가이드: 정보 ..., https://charlychoi.blogspot.com/2025/02/deep-research-ai-ai.html
+[20] 젠스파크(Genspark) 혁신적인 AI 플랫폼의 장단점 분석, https://pcwpower.tistory.com/79
+[21] 그록 3 (Grok3) 이란? 10배 강력해진 xAI의 차세대 AI모델, https://www.magicaiprompts.com/docs/grok/what-is-grok/
+[22] '세계에서 가장 똑똑한' AI 모델 '그록-3, 출시 - 브런치스토리, https://brunch.co.kr/@@ffnS/155
+[23] Grok-3는 얼마나 좋은가? Grok-3는 어디에 사용할 수 있는가? - Apidog, https://apidog.com/kr/blog/grok-3-release/
+[24] Grok 3 심층 분석 – GPT-4o를 넘어서? xAI의 차세대 AI 모델, 무엇이 ..., https://digitalbourgeois.tistory.com/788
+[25] xAI, 세계에서 가장 똑똑한' 그록-3 출시 - 브런치스토리, https://brunch.co.kr/@heir480/3225
+[26] 일론 머스크의 야심작 Grok-3 AI : xAI의 혁신적 AI 모델 사용 가이드, https://bookshelf-journey.tistory.com/entry/%EC%9D%BC%EB%A1%A0-%EB%A8%B8%EC%8A%A4%ED%81%AC%EC%9D%98-%EC%95%BC%EC%8B%AC%EC%9E%91-Grok-AI-xAI%EC%9D%98-%ED%98%81%EC%8B%A0%EC%A0%81-AI-%EB%AA%A8%EB%8D%B8-%EC%82%AC%EC%9A%A9-%EA%B0%80%EC%9D%B4%EB%93%9C-1
+[27] [Grok-3 vs ChatGPT] AI 챗봇 전쟁의 새로운 국면, https://coincamp.tistory.com/entry/Grok-3-vs-ChatGPT-AI-%EC%B1%97%EB%B4%87-%EC%A0%84%EC%9F%81%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B5%AD%EB%A9%B4
+[28] IT 최신 뉴스: Grok-3, Gemini 2.0, 딥시크 보안 논란 등, https://sugar-family.tistory.com/355
+[29] 자료조사 3분 만에 끝내는 비결? – Perplexity Deep Research 완벽 분석, https://digitalbourgeois.tistory.com/776
+[30] Perplexity, Deep Research 기능 출시 - 읽을거리&정보공유, https://discuss.pytorch.kr/t/perplexity-deep-research/6138
+[31] Perplexity, 무료 'Deep Research' 서비스 출시 - 패스트캠퍼스, https://fastcampus.co.kr/community/100390
+[32] 퍼플렉시티 '딥 리서치': AI 심층 검색 및 추론 에이전트의 혁신!, https://fornewchallenge.tistory.com/entry/%F0%9F%A7%A0%F0%9F%94%8D%ED%8D%BC%ED%94%8C%EB%A0%89%EC%8B%9C%ED%8B%B0-%EB%94%A5-%EB%A6%AC%EC%84%9C%EC%B9%98-AI-%EC%8B%AC%EC%B8%B5-%EA%B2%80%EC%83%89-%EB%B0%8F-%EC%B6%94%EB%A1%A0-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%9D%98-%ED%98%81%EC%8B%A0
+[33] 퍼플렉시티 딥리서치: 무료로 사용할 수 있는 전문가 수준 리서치, https://designcompass.org/2025/02/17/perplexity-deepresearch/
+[34] What is Perplexity Deep Research, and how do you use it? - ZDNET, https://www.zdnet.com/article/what-is-perplexity-deep-research-and-how-do-you-use-it/
+[35] Perplexity AI's Deep Research Tool Is Almost as Good as OpenAI's ..., https://lifehacker.com/tech/perplexity-ai-deep-research-almost-as-good-as-openai-and-free
+[36] Perplexity AI's Deep Research feature is available now - Tom's Guide, https://www.tomsguide.com/ai/perplexity-ais-deep-research-feature-is-available-now-heres-how-to-try-it-for-free
+[37] Perplexity AI's Deep Research tool is free to use: Here's how it works, https://indianexpress.com/article/technology/artificial-intelligence/perplexity-ais-deep-research-tool-is-free-to-use-heres-how-it-works-9837369/
+[38] Perplexity AI Offers A "Deep Research" Feature For Free - GreyCoder, https://greycoder.com/perplexity-ai-offers-a-deep-research-feature-for-free/
+[39] Perplexity Deep Research Takes on OpenAI & Gemini, https://www.analyticsvidhya.com/blog/2025/02/perplexity-deep-research/
+[40] 'Deep Research'를 새 직원으로 써 볼 이유 - 브런치스토리, https://brunch.co.kr/@@3eB2/82
+[41] Google의 AI 공동 과학자 vs. OpenAI의 심층 연구 vs. Perplexity의 ..., https://www.unite.ai/ko/%EA%B5%AC%EA%B8%80-AI-%EA%B3%B5%EB%8F%99-%EA%B3%BC%ED%95%99%EC%9E%90-%EB%8C%80-%EC%98%A4%ED%94%88AI-%EC%8B%AC%EC%B8%B5-%EC%97%B0%EA%B5%AC-%EB%8C%80-%ED%8D%BC%ED%94%8C%EB%A0%89%EC%8B%9C%ED%8B%B0-%EC%8B%AC%EC%B8%B5-%EC%97%B0%EA%B5%AC-AI-%EC%97%B0%EA%B5%AC-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EB%B9%84%EA%B5%90/
+[42] Perplexity Deep Research 공개 - GeekNews, https://news.hada.io/topic?id=19266
+[43] Introducing deep research - OpenAI, https://openai.com/index/introducing-deep-research/
+[44] Deep Research FAQ - OpenAI Help Center, https://help.openai.com/en/articles/10500283-deep-research-faq
+[45] What Is OpenAI's New Deep Research Feature? How to Use It & More, https://tech.co/news/openai-new-deep-research-feature
+[46] [PDF] Deep Research System Card | OpenAI, https://cdn.openai.com/deep-research-system-card.pdf
+[47] OpenAI's Deep Research can save you hours of work - ZDNET, https://www.zdnet.com/article/openais-deep-research-can-save-you-hours-of-work-and-now-its-a-lot-cheaper-to-access/
+[48] Google Deep Research vs. OpenAI Deep Research: The Future of ..., https://www.seerinteractive.com/insights/google-deep-research-vs.-openai-deep-research-a-comprehensive-guide-for-seo-digital-marketing-professionals
+[49] OpenAI's Deep Research: A Guide With Practical Examples, https://www.datacamp.com/blog/deep-research-openai
+[50] Understanding complex trends with deep research | OpenAI, https://openai.com/index/deep-research/
+[51] OpenAI's Deep Research Tool: A Comprehensive Overview, https://bytebridge.medium.com/openais-deep-research-tool-a-comprehensive-overview-12ddab43feff
+[52] Deep Research: First Impressions - UX Tigers, https://www.uxtigers.com/post/deep-research
+[53] OpenAI's 'deep research' tool: is it useful for scientists? - Nature, https://www.nature.com/articles/d41586-025-00377-9
+[54] OpenAI's deep research aims to outthink analysts - IBM, https://www.ibm.com/think/news/openai-releases-deep-research
+[55] OpenAI Deep Research 에이전트: 온라인 연구 시간을 단축하는 혁신 ..., https://tilnote.io/pages/67a2aa1b0a38a2150365bdcb
+[56] OpenAI의 Deep Research(딥 리서치): AI 연구의 새로운 지평 : 블로그, https://gptskorea.com/BLOG/?bmode=view&idx=149141793
+[57] ChatGPT의 새로운 기능 Deep Research: 사용 방법과 활용 분석, https://auto-trading.tistory.com/entry/ChatGPT%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5-Deep-Research-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95%EA%B3%BC-%ED%99%9C%EC%9A%A9-%EB%B6%84%EC%84%9D
+[58] OpenAI의 새로운 기능 'Deep Research' 발표 내용입니다. 주요 특징 ..., https://www.threads.net/@powerblog/post/DFl2MqfhUkT?hl=ko
+[59] OpenAI Deep Research의 문제점 - GeekNews, https://news.hada.io/topic?id=19323
+[60] 그렇다면 완벽한 서비스냐? 물론 출시 1-2일차이기 때문에 개선점은 ..., https://www.threads.net/@koreanowl_sf/post/DFpLmekRMS3
+[61] OpenAI의 DeepSearch는 DeepSeek보다 뛰어날까? - 커리어리, https://careerly.co.kr/comments/116738
+[62] Gemini 2.0이 탑재된 Google의 가장 강력한 AI 모델에 액세스, https://gemini.google/advanced/?hl=ko
+[63] Introducing Deep Research : r/OpenAI - Reddit, https://www.reddit.com/r/OpenAI/comments/1igbu9y/introducing_deep_research/
+[64] Is Deep Research Useful? Comparing Gemini Vs ChatGPT ... - Bind AI, https://blog.getbind.co/2025/02/16/is-deep-research-useful-comparing-gemini-vs-chatgpt-vs-perplexity/
+[65] Google's new Gemini Deep Research product has officially blown ..., https://www.linkedin.com/posts/rohitdotmittal_googles-new-gemini-deep-research-product-activity-7278253526563074048-8yh7
+[66] How to use Gemini's Deep Research to browse the web faster and ..., https://www.zdnet.com/article/how-to-use-geminis-deep-research-to-browse-the-web-faster-and-better/
+[67] Don't sleep on Google Gemini's Deep Research mode - VentureBeat, https://venturebeat.com/ai/dont-sleep-on-google-geminis-deep-research-mode-8-examples-of-informative-reports/
+[68] Google's Gemini Can Now Do Research in Minutes That ... - PCMag, https://www.pcmag.com/news/google-gemini-deep-research-that-would-take-human-hours
+[69] Ep 425: Google Gemini Deep Research - The best new AI tool you ..., https://www.youreverydayai.com/google-gemini-deep-research-the-best-new-ai-tool-youre-not-using-yet/
+[70] Introducing Gemini: our largest and most capable AI model, https://blog.google/technology/ai/google-gemini-ai/
+[71] Google's new Deep Research is impressive : r/perplexity_ai - Reddit, https://www.reddit.com/r/perplexity_ai/comments/1hd86x8/googles_new_deep_research_is_impressive/
+[72] Gemini Deep Research 좋다길래 뭐 어느 정도길래? 했다. 솔직히 ..., https://www.threads.net/@dailyprompt_/post/DEjnEYFyIbf?hl=ko
+[73] OpenAI Deep Research: How it Compares to Perplexity and Gemini, https://www.helicone.ai/blog/openai-deep-research
+[74] OpenAI Deep Research vs Gemini Deep Research: Which Is Better?, https://www.geeksforgeeks.org/openai-deep-research-vs-gemini-deep-research-which-is-better/
+[75] Should You Use Gemini or ChatGPT Deep Research? | Medium, https://gcmori.medium.com/should-you-use-gemini-or-chatgpt-deep-research-031e026e3f10
+[76] What Users Say About Gemini Deep Research - DEV Community, https://dev.to/aigurux/what-users-say-about-gemini-deep-research-3io7
+[77] AI 시대의 보고서 작성법: 젠스파크 '심층 연구'로 10분 만에 ... - AI 매터스, https://aimatters.co.kr/ai-tool/ai-tool-how-to/13710
+[78] Genspark Plus AI 무료로 잘 활용하기 (같이 한달씩 무료 사용하기), https://www.gpters.org/research/post/DPVPFX51MjJvGCt
+[79] 생성형 AI는 지금 '딥 리서치' 열풍 - AI 매터스, https://aimatters.co.kr/news-report/feature-article/15690
+[80] Perplexity Deep Research: 인공지능 연구의 새로운 패러다임, https://foreducator.com/post/5925/
+[81] Introducing Perplexity Deep Research, https://www.perplexity.ai/ko/hub/blog/introducing-perplexity-deep-research
+[82] Perplexity Deep Research 소개 일일 제한량 - Nuuthang, https://www.nuuthang.com/post/10/
+[83] Perplexity에 대한 심층 연구를 소개합니다., https://www.threads.net/@perplexity.ai/post/DGD8hnVKsME?hl=ko
+[84] [AI넷] [Deep Research 야단났네.] 30만원짜리 OpenAI, Perplexity가 ..., http://www.ainet.link/18970
+[85] Perplexity Deep Research: AI 연구 비용 혁신과 미래 전망 - DX Talk, https://dxtalk.net/perplexity-deep-research-ai/
+[86] ChatGPT Pro 딥리서치 vs 퍼플렉시티 딥리서치와 비교 - 클리앙, https://www.clien.net/service/board/use/18918097
