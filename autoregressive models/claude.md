@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/2b2427be-9d8f-4199-8544-86fbecb26b0b)
+
 # 자동회귀 모델 (Autoregressive Models)
 
 자동회귀 모델은 시퀀스 데이터를 다루는 핵심적인 통계적 및 머신러닝 모델입니다. 이름에서 알 수 있듯이 "auto"(자기 자신)와 "regressive"(회귀)라는 단어의 조합으로, 자신의 이전 출력을 기반으로 다음 출력을 예측하는 모델을 의미합니다.
